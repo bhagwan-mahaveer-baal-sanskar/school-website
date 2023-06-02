@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Business Casual v5.0.9 (https://startbootstrap.com/template-overviews/business-casual)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2023 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
@@ -56,6 +56,17 @@ p {
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+table {
+  position: relative;
+}
+
+.scrollable-table {
+  display: block;
+  overflow-x: auto;
+  position: relative;
+  margin-left: auto;
 }
 
 .section-heading {

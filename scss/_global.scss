@@ -1,9 +1,7 @@
 body {
   @include body-font;
-  background-image: linear-gradient(
-      rgba(47, 23, 15, 0.65),
-      rgba(47, 23, 15, 0.65)
-    ),
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65),
+      rgba(47, 23, 15, 0.65)),
     url('../img/bg.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -38,11 +36,13 @@ p {
   line-height: 1;
 
   @include heading-font;
+
   .site-heading-upper {
     display: block;
     font-size: 2rem;
     font-weight: 800;
   }
+
   .site-heading-lower {
     font-size: 5rem;
     font-weight: 100;
@@ -55,13 +55,35 @@ p {
   margin-bottom: 5rem;
 }
 
+.clickable {
+  // z-index: 3;
+  // position: relative;
+}
+
+table {
+  position: relative;
+}
+
+.scrollable-table {
+  display: block;
+  // width: 100%;
+  overflow-x: auto;
+  // z-index: 3;
+  // white-space: nowrap;
+  position: relative;
+  margin-left: auto;
+}
+
+
 .section-heading {
   text-transform: uppercase;
+
   .section-heading-upper {
     display: block;
     font-size: 1rem;
     font-weight: 800;
   }
+
   .section-heading-lower {
     display: block;
     font-size: 3rem;
